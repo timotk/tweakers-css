@@ -1,0 +1,118 @@
+/* START LAYOUT */
+/* remove unwanted items */
+div.socialcount,
+p.social,
+.slogan,
+p.wvhj,
+#categoryBar,
+#ticker,
+#true,
+#bottom div.hr,
+#about,
+.flagNL div {
+    display: none !important;
+}
+
+/* remove now empty bar */
+#menubottombar {
+    height:0px;
+}
+/* move tracker up because of missing #menubottombar */
+#tracker {
+    top: -22px !important;
+}
+/* smaller searchbar */
+#search {
+    padding-top:5px;
+}
+#searchbar {
+    margin-top: 0px !important;
+    height:39px;
+}
+/* condense top and bottom of content */
+#contentArea {
+    padding-top:10px;
+}
+#layout {
+    padding-bottom: 60px;
+}
+
+/* move fpaItems, change width of menu */
+@media screen and (min-width: 768px){
+    #contentArea {
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+    #menu {
+        width: 1022px;
+    }
+    /* move highlighted items to right side of page */
+    .fpaItemsWrapper {
+        float: right;
+        overflow: none;
+    }
+    .fpaItems {
+        width:300px;
+    }
+    .fpaItem {
+        float:none;
+        border: none;
+    }
+    .fpaItem + .fpaItem {
+        width:300px;
+        padding-left:0px;
+    }
+    .fpaItemsWrapper, .greyTopBorderBlock {
+        border:none;
+    }
+}
+/* width number of comments box */
+.commentCount {
+    width:29px;
+}
+/* END LAYOUT */
+
+
+/* START COLORS */
+body, #layout {
+    background-color: #313232;
+}
+#searchbar {
+    background: #313232 none repeat scroll 0% 0% !important;
+}
+#top {
+    border:none;
+}
+#mainSearch .text {
+    background-color: #4B4D4D;
+    color: white;
+}
+#mainSearch .submit {
+    background-color: #4B4D4D;
+    border-left-width: 0px;
+}
+input.text, .keywordSearch {
+    border: none !important;
+    border-radius: 0px !important;
+}
+.keywordSearch {
+    background:none;
+}
+#contentArea {
+    background-color: #EBECEC;
+}
+/* END COLORS */
+
+
+/* START FORUM */
+.pageTabs ul li.active a {
+    background-color: #EBECEC;
+}
+table.listing td {
+  border-top:none;
+  background: #EBECEC;
+}  
+table, td {
+    border-color: #DDDEDE !important;
+}
+/* END FORUM */
