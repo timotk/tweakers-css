@@ -107,8 +107,8 @@ body,
 }
 #mainSearch .text
 {
+    color: white;
     background-color: #4b4d4d;
-    /* color: white;*/
 }
 #mainSearch .submit
 {
@@ -148,11 +148,3 @@ td
     border-color: #dddede !important;
 }
 /* END FORUM */
-
-#userbar .username
-{
-    overflow: hidden;
-
-    white-space: nowrap;
-    text-indent: -200%;
-}
