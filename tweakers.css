@@ -9,110 +9,150 @@ p.wvhj,
 #true,
 #bottom div.hr,
 #about,
-.flagNL div {
+.flagNL div
+{
     display: none !important;
 }
 
 /* remove now empty bar */
-#menubottombar {
-    height:0px;
+#menubottombar
+{
+    height: 0;
 }
 /* move tracker up because of missing #menubottombar */
-#tracker {
+#tracker
+{
     top: -22px !important;
 }
 /* smaller searchbar */
-#search {
-    padding-top:5px;
+#search
+{
+    padding-top: 5px;
 }
-#searchbar {
-    margin-top: 0px !important;
-    height:39px;
+#searchbar
+{
+    height: 39px;
+    margin-top: 0 !important;
 }
 /* condense top and bottom of content */
-#contentArea {
-    padding-top:10px;
+#contentArea
+{
+    padding-top: 10px;
 }
-#layout {
+#layout
+{
     padding-bottom: 60px;
 }
 
 /* move fpaItems, change width of menu */
-@media screen and (min-width: 768px){
-    #contentArea {
-        padding-left:20px !important;
-        padding-right:20px !important;
+@media screen and (min-width: 768px)
+{
+    #contentArea
+    {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
     }
-    #menu {
+    #menu
+    {
         width: 1022px;
     }
     /* move highlighted items to right side of page */
-    .fpaItemsWrapper {
+    .fpaItemsWrapper
+    {
         float: right;
         overflow: none;
     }
-    .fpaItems {
-        width:300px;
+    .fpaItems
+    {
+        width: 300px;
     }
-    .fpaItem {
-        float:none;
+    .fpaItem
+    {
+        float: none;
+
         border: none;
     }
-    .fpaItem + .fpaItem {
-        width:300px;
-        padding-left:0px;
+    .fpaItem + .fpaItem
+    {
+        width: 300px;
+        padding-left: 0;
     }
-    .fpaItemsWrapper, .greyTopBorderBlock {
-        border:none;
+    .fpaItemsWrapper,
+    .greyTopBorderBlock
+    {
+        border: none;
     }
 }
 /* width number of comments box */
-.commentCount {
-    width:29px;
+.commentCount
+{
+    width: 29px;
 }
 /* END LAYOUT */
 
 
 /* START COLORS */
-body, #layout {
+body,
+#layout
+{
     background-color: #313232;
 }
-#searchbar {
-    background: #313232 none repeat scroll 0% 0% !important;
+#searchbar
+{
+    background: #313232 none repeat scroll 0 0 !important;
 }
-#top {
-    border:none;
+#top
+{
+    border: none;
 }
-#mainSearch .text {
-    background-color: #4B4D4D;
-    color: white;
+#mainSearch .text
+{
+    background-color: #4b4d4d;
+    /* color: white;*/
 }
-#mainSearch .submit {
-    background-color: #4B4D4D;
-    border-left-width: 0px;
+#mainSearch .submit
+{
+    border-left-width: 0;
+    background-color: #4b4d4d;
 }
-input.text, .keywordSearch {
+input.text,
+.keywordSearch
+{
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
 }
-.keywordSearch {
-    background:none;
+.keywordSearch
+{
+    background: none;
 }
-#contentArea {
-    background-color: #EBECEC;
+#contentArea
+{
+    background-color: #ebecec;
 }
 /* END COLORS */
 
 
 /* START FORUM */
-.pageTabs ul li.active a {
-    background-color: #EBECEC;
+.pageTabs ul li.active a
+{
+    background-color: #ebecec;
 }
-table.listing td {
-  border-top:none;
-  background: #EBECEC;
-}  
-table, td {
-    border-color: #DDDEDE !important;
+table.listing td
+{
+    border-top: none;
+    background: #ebecec;
+}
+table,
+td
+{
+    border-color: #dddede !important;
 }
 /* END FORUM */
+
+#userbar .username
+{
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-indent: -200%;
+}
