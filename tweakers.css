@@ -148,3 +148,10 @@ td
     border-color: #dddede !important;
 }
 /* END FORUM */
+
+#userbar .username
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: -200%;
+}
