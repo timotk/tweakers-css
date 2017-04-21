@@ -1,4 +1,4 @@
 # tweakers-css
-Custom CSS for tweakers.net
+Custom CSS voor tweakers.net
 
 ![ScreenShot](screenshot.png)
