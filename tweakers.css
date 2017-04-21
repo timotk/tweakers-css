@@ -19,6 +19,13 @@ p.wvhj,
 {
     height: 0;
 }
+
+/*fix menu padding for smallTracker*/
+body.smallTracker #menu {
+    margin: 0;
+}
+
+
 /* move tracker up because of missing #menubottombar */
 #tracker
 {
@@ -34,6 +41,11 @@ p.wvhj,
     height: 39px;
     margin-top: 0 !important;
 }
+
+#mainSearch .text {
+    color: black !important;
+}
+
 /* condense top and bottom of content */
 #contentArea
 {
@@ -88,6 +100,17 @@ p.wvhj,
 {
     width: 29px;
 }
+
+.relevancyColumn {
+    display: none;
+}
+
+#socialButtonsContainer,
+.nextPrevLinks,
+.relatedArticlesContentContainer {
+display: none !important;
+}
+
 /* END LAYOUT */
 
 
@@ -154,4 +177,12 @@ td
     overflow: hidden;
     white-space: nowrap;
     text-indent: -200%;
+}
+
+/* feedback knop */
+.giveFeedback { display: none; }
+
+/* geen bewegende avatars */
+.thumb img[src$=".gif"] {
+    display: none;
 }
