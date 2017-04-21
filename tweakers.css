@@ -46,6 +46,11 @@ body.smallTracker #menu {
     color: black !important;
 }
 
+/* abo knop weg */
+.abo {
+    display: none !important;
+}
+
 /* condense top and bottom of content */
 #contentArea
 {
